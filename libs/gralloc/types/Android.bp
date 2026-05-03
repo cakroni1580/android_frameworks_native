@@ -30,7 +30,7 @@ cc_library {
         "-Werror",
         "-Wno-enum-compare",
     ],
-    host_supported: true,
+    host_supported: false,
     target: {
         darwin: {
             enabled: false,
